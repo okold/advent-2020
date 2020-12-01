@@ -32,6 +32,8 @@ for x in nums:
         if done:
             break
         for z in nums:
+            if done:
+                break
             if x + y + z == 2020:
                 done = True
                 print("PART 2: ")
