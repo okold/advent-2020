@@ -9,7 +9,7 @@ def read_integers(filename):
         return [int(x) for x in f]
 
 # PART 1
-nums = read_integers("input.txt")
+nums = read_integers("01/input")
 done = False
 
 for x in nums:
@@ -20,8 +20,7 @@ for x in nums:
             break
         if x + y == 2020:
             done = True
-            print("PART 1: ")
-            print(x * y)
+            print("PART 1:", x * y)
 
 # PART 2
 done = False
@@ -36,5 +35,4 @@ for x in nums:
                 break
             if x + y + z == 2020:
                 done = True
-                print("PART 2: ")
-                print(x * y * z)
+                print("PART 2:", x * y * z)
