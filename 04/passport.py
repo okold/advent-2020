@@ -57,36 +57,36 @@ for line in inp:
         split = line.split(' ')
         for sub in split:
             if "byr:" in sub:
-                sep = sub.split(":")
-                if int(sep[1]) >= 1920 and int(sep[1]) <= 2002:
+                data = sub.split(":")[1]
+                if int(data) >= 1920 and int(data) <= 2002:
                     validate(check, 0)
             if "iyr:" in sub:
-                sep = sub.split(":")
-                if int(sep[1]) >= 2010 and int(sep[1]) <= 2020:
+                data = sub.split(":")[1]
+                if int(data) >= 2010 and int(data) <= 2020:
                     validate(check, 1)
             if "eyr:" in sub:
-                sep = sub.split(":")
-                if int(sep[1]) >= 2020 and int(sep[1]) <= 2030:
+                data = sub.split(":")[1]
+                if int(data) >= 2020 and int(data) <= 2030:
                     validate(check, 2)
             if "hgt:" in sub:
-                sep = sub.split(":")
-                if sep[1].endswith("in"):
-                    if int(sep[1][0:-2]) >= 59 and int(sep[1][0:-2]) <= 76:
+                data = sub.split(":")[1]
+                if data.endswith("in"):
+                    if int(data[0:-2]) >= 59 and int(data[0:-2]) <= 76:
                         validate(check, 3)
-                if sep[1].endswith("cm"):
-                    if int(sep[1][0:-2]) >= 150 and int(sep[1][0:-2]) <= 193:
+                if data.endswith("cm"):
+                    if int(data[0:-2]) >= 150 and int(data[0:-2]) <= 193:
                         validate(check, 3)
             if "hcl:" in sub:
-                sep = sub.split(":")
-                if ecl_re.match(sep[1]):
+                data = sub.split(":")[1]
+                if ecl_re.match(data):
                     validate(check, 4)
             if "ecl:" in sub:
-                sep = sub.split(":")
-                if sep[1] in VALID_ECL:
+                data = sub.split(":")[1]
+                if data in VALID_ECL:
                     validate(check, 5)
             if "pid:" in sub:
-                sep = sub.split(":")
-                if sep[1].isdigit() and len(sep[1]) == 9:
+                data = sub.split(":")[1]
+                if data.isdigit() and len(data) == 9:
                     validate(check, 6)
             
 print("PART 2:", valid_passports)
