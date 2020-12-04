@@ -56,20 +56,17 @@ for line in inp:
     else:
         split = line.split(' ')
         for sub in split:
+            data = sub.split(":")[1]
             if "byr:" in sub:
-                data = sub.split(":")[1]
                 if int(data) >= 1920 and int(data) <= 2002:
                     validate(check, 0)
             if "iyr:" in sub:
-                data = sub.split(":")[1]
                 if int(data) >= 2010 and int(data) <= 2020:
                     validate(check, 1)
             if "eyr:" in sub:
-                data = sub.split(":")[1]
                 if int(data) >= 2020 and int(data) <= 2030:
                     validate(check, 2)
             if "hgt:" in sub:
-                data = sub.split(":")[1]
                 if data.endswith("in"):
                     if int(data[0:-2]) >= 59 and int(data[0:-2]) <= 76:
                         validate(check, 3)
@@ -77,15 +74,12 @@ for line in inp:
                     if int(data[0:-2]) >= 150 and int(data[0:-2]) <= 193:
                         validate(check, 3)
             if "hcl:" in sub:
-                data = sub.split(":")[1]
                 if ecl_re.match(data):
                     validate(check, 4)
             if "ecl:" in sub:
-                data = sub.split(":")[1]
                 if data in VALID_ECL:
                     validate(check, 5)
             if "pid:" in sub:
-                data = sub.split(":")[1]
                 if data.isdigit() and len(data) == 9:
                     validate(check, 6)
             
