@@ -40,7 +40,7 @@ for line in input:
     all_ids.remove(seat_id)
 
 for i, val in enumerate(all_ids):
-    if i > 0 and i < max_id:
+    if i > 0 and val < max_id:
         if all_ids[i-1] != (val - 1) and all_ids[i+1] != (val + 1):
             my_id = val
             break
