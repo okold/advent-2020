@@ -46,4 +46,4 @@ for i, val in enumerate(all_ids):
             break
 
 print("PART 1:", max_id)
-print("PART 1:", my_id)
+print("PART 2:", my_id)
