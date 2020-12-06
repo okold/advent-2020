@@ -11,8 +11,8 @@ def validate(list, index):
     if list[index] == 0:
         list[index] = 1
     else:
-        if list[index] == -1:
-            list[index] = 0
+        if list[index] == 1:
+            list[index] = -1
 
 VALID_ECL = ["amb", "blu", "brn", "gry", "grn", "hzl", "oth"]
 check = [0, 0, 0, 0, 0, 0, 0]   # byr, iyr, eyr, hgt, hcl, ecl, pid
