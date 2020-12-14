@@ -1,4 +1,4 @@
-# Advent of Code 2020
+# Advent of Code 2020 - Day 1
 # December 01, 2020
 # https://adventofcode.com/2020/day/1
 
