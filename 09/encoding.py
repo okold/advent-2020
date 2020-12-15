@@ -1,9 +1,7 @@
 # Advent of Code 2020 - Day 9
 # December 14, 2020
-# https://adventofcode.com/2020/day/7
+# https://adventofcode.com/2020/day/9
 import func
-import re
-import time
 
 P_SIZE = 25  # preamble size
 
