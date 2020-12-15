@@ -1,4 +1,4 @@
-# Advent of Code 2020 - Day 7
+# Advent of Code 2020 - Day 8
 # December 14, 2020
 # https://adventofcode.com/2020/day/7
 import func
