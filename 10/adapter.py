@@ -1,8 +1,7 @@
 # Advent of Code 2020 - Day 10
-# December 14, 2020
+# December 17, 2020
 # https://adventofcode.com/2020/day/10
 import func
-import copy
 
 MIN_DIFF = 1
 MAX_DIFF = 3
