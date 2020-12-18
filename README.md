@@ -22,6 +22,8 @@ I said I'd stop for the day but I guess I lied. Finally installed a ruler in VSC
 ### Day 10
 Fell behind again. This day was a doozy, took me nearly four hours. I learned about list comprehensions (though I didn't end up using them) and dictionaries. Complex problem with a nice, simple answer.
 ### Day 11
-Having so much bounds checking makes messy code. 2D arrays are difficult to use in this language. Some googling has introduced me to numpy, but I haven't used it in this problem. Maybe next time I need to make a matrix.
+Having so much bounds checking makes messy code. 2D arrays are difficult to use in this language. Some googling has introduced me to numpy, but I haven't used it in this problem. I should, the next time I need to play with matrices.
+
 Why are strings immutable? Also, why isn't "else if" a statement that you can use? For a language that's supposed to naturally create nice looking code, the fact that else ifs push the indentation back and the fact that there's no switch statements is just... horrible.
+
 I do, however, appreciate the fact that you can do multiple returns through a k-tuple. I can give the ole snake that.
