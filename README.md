@@ -10,3 +10,4 @@ I'm using this to learn Python, basically from scratch.
 - Day 7: Finally got introduced to objects, though I feel like I need to conceptualize them less like objects and more like structures. The fact I have to put self.x within objects is annoying. Working on a graph problem was nice, though I don't think my solution is the most efficient.
 - Day 8: This was a fun one. Last year I had trouble creating the machine, but this year's going much smoother. I'm starting to appreciate Python's simplicity. There's some repitition in the solution outside the actual machine, but it works so I'm leaving it as is.
 - Day 9: I said I'd stop for the day but I guess I lied. Finally installed a ruler in VSC, so my comments should be a lot more consistent.
+- Day 10: Fell behind again. This day was a doozy, took me nearly four hours. I learned about list comprehensions (though I didn't end up using them) and dictionaries. Complex problem with a nice, simple answer.
