@@ -4,21 +4,21 @@ I'm using this to learn Python. I've tried before.
 I was not a big fan at the start, but it's a good language to know. I'm still not a big fan, but I don't completely hate it. Progress!
 
 ## Day 12
-# December 19, 2020
+### December 19, 2020
 This is an organizational day! Also, I love dictionaries. The problem was nice and simple, especially compared to the last two.
 
 - I finally created a template to make starting these puzzles quicker. 
 - Renamed func.py to helper.py.
 
 ## Day 11
-# December 18, 2020
+### December 18, 2020
 Having so much bounds checking makes messy code. There's got to be a better way to do it. 2D arrays are difficult to use in this language. Some googling has introduced me to numpy, but I haven't used it for this problem. I should, the next time I need to play with matrices.
 
 Here's some gripes: Why are strings immutable? Also, why isn't "else if" a statement that you can use? For a language that's supposed to naturally create nice looking code, the fact that else ifs push the indentation back and the fact that there's no switch statements is just... horrible.
 
 I do, however, appreciate the fact that you can do multiple returns through a k-tuple.
 ## Day 10
-# December 17, 2020
+### December 17, 2020
 Fell behind again. This day was a doozy, took me nearly four hours. I learned about list comprehensions (though I didn't end up using them) and dictionaries. Complex problem with a nice, simple answer.
 
 ## Day 9
