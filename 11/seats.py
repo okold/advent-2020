@@ -3,7 +3,6 @@
 # https://adventofcode.com/2020/day/11
 import func
 import copy
-import time
 
 input = func.file_to_char_matrix("11/input")
 current = copy.copy(input)
