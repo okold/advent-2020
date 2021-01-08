@@ -31,6 +31,7 @@ print("PART 1:", earliest_bus * wait_time)
 
 ################################################################################
 # PART 2
+# INCOMPLETE. WORKS, BUT IT'S SO INEFFICIENT IT WON'T REACH A SOLUTION.
 
 # calculates the needed differences between the values in bus_list
 steps = {}
@@ -101,7 +102,7 @@ def test(val, bus_index):
 done = False
 max_bus = max(bus_list)
 #start = 0
-start = int(100000000000000 / max_bus) * max_bus
+start = 100000000000000
 start_index = bus_list.index(max_bus)
 start_time = time.perf_counter()
 while not(done):

@@ -5,9 +5,7 @@ I was not a big fan at the start, but it's a good language to know. I'm still no
 
 ## Day 13
 ### December 19, 2020
-My answer is horribly inefficient. I increment the testing value by the largest bus number in the list, and test forward and backward from it, so I'm incrementing by the smallest immediately available number, but there's got to be a better way. To make it quicker, I used an extremely dumb hack by literally just starting near 100 trillion. 
-
-As of writing this, however, it's nearing 4AM so I should rest. I left the program running, and there's a timer hooked up to it, so if it finishes overnight, then hey, it finishes overnight.
+My answer for part 2 is horribly inefficient. I left it running overnight, but no dice. It's nice to be able to actually recognize a wall, but I'm going to skip part 2 of this solution and move on to Day 14.
 
 ## Day 12
 ### December 19, 2020
